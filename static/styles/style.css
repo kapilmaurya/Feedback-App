@@ -1,0 +1,40 @@
+.form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.Ags-logo{
+    width: 10rem;
+    height: auto;
+    border-radius: 10rem;
+    overflow: hidden;
+}
+.Ags-logo>img{
+    width: 100%;
+}
+.ags-form{
+    width: 100%;
+}
+#first-step{
+    position: fixed;
+    left: auto;
+    right: auto;
+    top: 19.7rem;
+    /* padding: 0 2.8rem; */
+}
+.second-step{
+    
+    right: 50rem;
+    /* overflow: hidden; */
+}
+
+@media only screen and (max-width: 700px){
+    .ags-form{
+        width: 100%;
+    }
+}
